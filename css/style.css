@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'lexend'; sans-serif;
+    overflow-x: hidden;
+}
+
+/*header*/ 
+.jl {
+    font-size: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+    margin-bottom: 15px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 300; 
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/*main*/
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto {
+    width: 440px;
+    height: 570px;
+    margin-top: 5px;
+    border-radius: 5px;
+} 
+
+.contenedor {
+    display: flex;
+}
+
+.titulo {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.horario {
+    display: flex;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-bottom: 27px;
+    font-weight: 500;
+}
+.texto-bienvenida {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+iframe {
+    margin-bottom: 15px;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+main ol {
+    list-style-type: none;
+}
+
+
+.card-link {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.card { 
+    border-color: #6C6C6C ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-reservas {
+  
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;       
+}
+
+footer .caja1 {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    }
+
+
+.dato {
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+
+@media (max-width:380px) {
+    .jl {
+        font-size: 35px;
+    }
+
+    nav a{    
+        font-size: 13.4px;
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .texto-bienvenida {
+        font-size: 14px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+    footer .caja1 {
+        margin-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        }
+    
+    .dato {
+        font-size: 10px;
+    }
+    
+    footer img {
+        width: 22px;
+        height: 22px;
+    }
+
+}

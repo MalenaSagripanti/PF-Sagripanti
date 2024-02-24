@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px auto 40px;
+    grid-template-areas: 
+    "nav header header header"
+    "nav main main main"
+    "nav footer footer footer"
+    ;
+    grid-gap: 5px;
+
+}
+header{
+    background-color:magenta;
+    grid-area: header;
+}
+
+nav{
+    background-color: aqua;
+    grid-area: nav;
+}
+
+main{
+    background-color: crimson;
+    grid-area: main;
+}
+
+footer{
+    background-color: lawngreen;
+    grid-area: footer;
+}
