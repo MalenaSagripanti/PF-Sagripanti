@@ -102,8 +102,8 @@ main ol {
     margin-bottom: 10px;
 }
 
-.card-reservas {
-  
+.row {
+    justify-content: space-evenly;
 }
 
 /*footer*/
