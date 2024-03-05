@@ -1,3 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "lexend", "sans-serif";
+  overflow-x: hidden;
+}
 
+header .jl {
+  font-size: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+header h1 {
+  padding: 20px;
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=main.css.map */
