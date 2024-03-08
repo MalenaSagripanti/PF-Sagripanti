@@ -1,0 +1,34 @@
+@mixin media-query-mobile {
+    @media (max-width: 576px) {
+        @content
+    }
+}
+
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-evenly;
+    .foto {
+        width: 440px;
+        height: 570px;
+        margin-top: 5px;
+        border-radius: 5px;
+    } 
+    @include media-query-mobile();
+}
+
+
+.horario {
+    display: flex;
+    .vertical {
+        writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        white-space: nowrap;
+        margin-left: 20px;
+        margin-bottom: 27px;
+        font-weight: 500;
+        font-size: 22px;
+    }
+    main ol {
+        list-style-type: none;
+    }
+}

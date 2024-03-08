@@ -1,0 +1,27 @@
+footer {
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .caja1 {
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        align-items: center;
+        .dato {
+            color: white;
+            font-size: 13px;
+            font-weight: 200;
+            margin: 0;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+        
+    }
+}
+

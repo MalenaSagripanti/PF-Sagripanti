@@ -51,7 +51,7 @@ nav a{
     border-radius: 5px;
 } 
 
-.conteiner {
+.container {
     display: flex;
 }
 
@@ -82,29 +82,32 @@ iframe {
     margin-bottom: 15px;
 }
 
-main ul {
-    list-style-type: none;
-}
+
 
 main ol {
     list-style-type: none;
 }
 
-
-.card-link {
-    font-size: 15px;
-    text-decoration: none;
-}
-
-.card { 
-    border-color: #6C6C6C ;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .row {
     justify-content: space-evenly;
 }
+
+//servicios card 
+.card-title {
+    font-size: 25px;
+}
+.card { 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20rem;
+    height: 60rem;
+}
+.card-img-top {
+    width: 20rem;
+    margin-left: 0;
+
+}
+
 
 /*footer*/
 footer {
