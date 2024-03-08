@@ -11,6 +11,11 @@ header .jl {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 576px) {
+  header .jl {
+    font-size: 35px;
+  }
+}
 header h1 {
   padding: 20px;
   margin-left: 10px;
@@ -22,15 +27,23 @@ header nav {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-header nav a {
+header a {
   text-decoration: none;
   color: white;
   font-size: 19px;
   font-weight: 300;
   flex-direction: row;
   margin-top: 15px;
+}
+@media (max-width: 576px) {
+  header a {
+    font-size: 14px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 main {
@@ -45,6 +58,12 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
+@media (max-width: 576px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 footer .caja1 {
   margin-top: 25px;
   margin-left: 25px;
@@ -52,15 +71,33 @@ footer .caja1 {
   display: flex;
   align-items: center;
 }
+@media (max-width: 576px) {
+  footer .caja1 {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
 footer .caja1 .dato {
   color: white;
   font-size: 13px;
   font-weight: 200;
   margin: 0;
 }
+@media (max-width: 576px) {
+  footer .caja1 .dato {
+    font-size: 10px;
+  }
+}
 footer .caja1 img {
   width: 40px;
   height: 40px;
+}
+@media (max-width: 576px) {
+  footer .caja1 img {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 .contenedor-imagenes {
@@ -73,6 +110,22 @@ footer .caja1 img {
   margin-top: 5px;
   border-radius: 5px;
 }
+@media (max-width: 576px) {
+  .contenedor-imagenes {
+    display: none;
+  }
+}
+
+.carousel {
+  display: none;
+}
+@media (max-width: 576px) {
+  .carousel {
+    height: 500px;
+    display: block;
+  }
+}
+
 .horario {
   display: flex;
 }
@@ -109,9 +162,19 @@ footer .caja1 img {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+@media (max-width: 576px) {
+  .container .row .texto-bienvenida {
+    font-size: 14px;
+  }
+}
 .container .row .titulo {
   font-weight: 400;
   font-size: 22px;
+}
+@media (max-width: 576px) {
+  .container .row .titulo {
+    font-size: 18px;
+  }
 }
 .container .row iframe {
   margin-bottom: 15px;

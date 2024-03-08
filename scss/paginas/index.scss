@@ -12,10 +12,19 @@
         height: 570px;
         margin-top: 5px;
         border-radius: 5px;
-    } 
-    @include media-query-mobile();
+    }
+    @include media-query-mobile() {
+        display: none;
+    }
 }
 
+.carousel {
+    display: none;
+    @include media-query-mobile() {
+        height: 500px;
+        display: block;
+    }
+}
 
 .horario {
     display: flex;

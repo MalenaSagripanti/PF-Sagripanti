@@ -1,3 +1,8 @@
+@mixin media-query-mobile {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
 .container {
     display: flex;
     .row {
@@ -6,10 +11,16 @@
             font-size: 16px;
             margin-top: 15px;
             margin-bottom: 15px;
+            @include media-query-mobile() {
+                font-size: 14px;
+            }
         }
         .titulo {
             font-weight: 400;
             font-size: 22px;
+            @include media-query-mobile() {
+                font-size: 18px;
+            }
         }
         iframe {
             margin-bottom: 15px;
