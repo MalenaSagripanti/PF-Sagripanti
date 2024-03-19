@@ -21,7 +21,7 @@ header h1 {
   margin-left: 10px;
 }
 header nav {
-  background-color: black;
+  background-color: #000;
   height: 60px;
   width: 100%;
   display: flex;
@@ -31,7 +31,7 @@ header nav {
 }
 header a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-size: 19px;
   font-weight: 300;
   flex-direction: row;
@@ -51,7 +51,7 @@ main {
 }
 
 footer {
-  background-color: black;
+  background-color: #000;
   height: 65px;
   width: 100%;
   display: flex;
@@ -79,7 +79,7 @@ footer .caja1 {
   }
 }
 footer .caja1 .dato {
-  color: white;
+  color: #fff;
   font-size: 13px;
   font-weight: 200;
   margin: 0;
@@ -143,8 +143,8 @@ footer .caja1 img {
 }
 
 .equipo {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   font-weight: 100;
 }
 .equipo .card-text {

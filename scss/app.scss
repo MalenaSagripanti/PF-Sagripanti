@@ -1,9 +1,11 @@
-@import './general/reset.scss' ;
-@import './layout/header.scss';
-@import './layout/main.scss';
-@import './layout/footer.scss' ;
-@import './paginas/index.scss' ;
-@import './paginas/nuestro-equipo.scss';
-@import './paginas/quienes-somos.scss' ;
-@import './paginas/reservas.scss';
-@import './paginas/servicios.scss' 
+@import './general/_reset.scss' ;
+@import './general/variables';
+@import './layout/_header.scss';
+@import './layout/_main.scss';
+@import './layout/_footer.scss' ;
+@import './paginas/_index.scss' ;
+@import './paginas/_nuestro-equipo.scss';
+@import './paginas/_quienes-somos.scss' ;
+@import './paginas/_reservas.scss';
+@import './paginas/_servicios.scss';
+

@@ -1,6 +1,6 @@
 .equipo {
-    background-color: black;
-    color: white;
+    background-color: $color-primario;
+    color: $color-secundario;
     font-weight: 100;
     .card-text {
         height: 150px !important; 
